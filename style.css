@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Lato-Light";
+    src: url('fonts/Lato-Light.ttf');
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+    src: url('fonts/Lato-Regular.ttf');
+}
+
+html, body {
+    height: 100%;
+	margin: 0;
+	padding: 0;
+    
+
+}
+header {
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    height: 100px;
+}
+
+.connection{
+    font-size: 14px;
+}
+
+.connection p {
+    margin: 0;
+    padding: 0;
+    line-height: 122%;
+   
+}
+
+.connection p a{
+    text-decoration: none;
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 50px;
+    padding: 4px;
+
+   
+
+}
+
+#connexion p a {
+    color:#fff;
+    font-family: "Lato-Regular";
+    border: 1px #fff solid;
+    border-radius: 15px;
+
+}
+
+#inscription p a {
+    color: #B8E986;
+    font-family: "Lato-Regular";
+    border: 1px #B8E986 solid;
+    border-radius: 15px;
+}
+
+
+#landing-page {
+    background: url(img/salons.jpg) 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background: 
+    
+}
+
+
+
+
+#title-lp {
+    position: relative;
+    margin: 0;
+    padding: 100px 0 0 100px;
+    width: 300px;
+    color: #fff;
+    font-family: "Lato-Light";
+    
+}
+
+.fa-1x {
+    color:#fff;
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+}
+
+
+aside{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 2%;  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
