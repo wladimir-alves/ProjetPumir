@@ -1,0 +1,13 @@
+{
+    "name": "htdocs/pumir",
+    "authors": [
+        {
+            "name": "Wladimir Alves",
+            "email": "wladimiralves85@hotmail.com"
+        }
+    ],
+       	
+	"require": {
+		"facebook/php-sdk-v4" : "4.0",
+	}
+}
