@@ -1,0 +1,1677 @@
+
+
+/* =============================================================================
+  BUTTON RESETS
+============================================================================= */
+button {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: "Lato-Light";
+  font-size: inherit;
+  background: none;
+  border: none;
+  border-radius: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+/* =============================================================================
+  HTML & BODY
+============================================================================= */
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    margin:0;
+    padding: 0;
+    
+}
+
+
+/* =============================================================================
+  PRIMARY LAYOUT
+============================================================================= */
+#wraper {
+    height: 100%;
+
+}
+
+#wrapper {
+    height: 100%;
+}
+.wrapper {
+    z-index: 5;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    height: 100%;
+    
+}
+
+.wrapper.mm-menu-open {
+    -webkit-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    transform: translateX(300px);
+}
+
+main {
+  margin:0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  background: url(img/salons.jpg) no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+#slogan {
+    height: 90%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+#title-slider {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:60%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    color: #fff;
+
+}
+
+#scroll-icon {
+    margin: 0;
+    padding-top: 0;
+    position: relative;
+
+}
+
+.fa-angle-down {
+    color:#B8E986;
+    position: relative;
+    left: 50%;
+    
+}
+
+
+
+/* =============================================================================
+  HEADER
+============================================================================= */
+header {
+  width: 100%;
+    background: transparent;
+    position: absolute;
+    height: 63px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+    
+}
+
+.log {
+    float: right;
+    padding-right: 70px; 
+    padding-top: 60px;
+
+   
+}
+
+.log a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Lato-Regular";
+}
+
+
+#connexion a {
+    color: #fff;
+    padding: 10px 15px 10px 0px;
+    
+
+}
+
+
+#inscription a {
+    border: #B8E986 solid 1px;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+    font-family: "Lato-Regular";
+    color: #B8E986;
+
+}
+
+.inscription {
+    height: 500px;
+    width: 340px;
+    background: #fff;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 500px;
+    top: 150px;
+    z-index: 1;
+
+
+}
+
+.inscription button {
+    float: right;
+    border-color: transparent;
+    background: #fff;
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+
+
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    color: #B8E986;
+    padding: 20px 0 0 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#entry-form {
+    height: 80%;
+    color: #fff;
+}
+
+.inscription input {
+    width: 301px;
+    height: 60px;
+    background: #f8f8f8;    
+    text-align: justify;
+    border-radius: 1px;
+    
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.inscription-form {
+    border-color: #fff; 
+    border-left: #b8E986;
+}
+
+#submit-form {
+    background-color: #B8E986;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    border-color: #fff;
+}
+
+#submit-facebook {
+    background-color: #3A5795;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    border-color: #fff;
+}
+.link-form {
+    position: relative;
+    padding-left: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+}
+
+.link-form li {
+    display: inline-block;
+    
+
+}
+
+.link-form a{
+    text-decoration: none;
+    padding: 0 10px 0 0;
+    
+}
+
+
+#search a {
+    color: #fff;
+}
+
+form {
+    height: 40px;
+    position: relative;
+    top: -7px;
+}
+    
+#submit {
+    display: none;
+}
+
+form .icon, form .submit {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+form .submit {
+    background: #009bff;
+    cursor: pointer;
+   
+}
+
+form .icon:after, form .submit:after  {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 2px solid white;
+    border-radius: 50%;
+    left: 10px;
+    top: 9px;
+}
+
+form .icon:before, form .submit:before {
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 2px;
+    background: white;
+    transform: rotate(-35deg);
+    top: 19px;
+    left: 21px;
+}
+
+
+form .icon:after, form .submit:after  {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 2px solid white;
+    border-radius: 50%;
+    left: 10px;
+    top: 9px;
+}
+
+form #search {
+    -webkit-appearance: none;
+    height: 35px;
+    width: 0;
+    position: absolute;
+    padding: 0;
+    opacity: 0;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 35px;
+    border-radius: 20px;
+}
+
+
+/* =============================================================================
+    SHOW PHOTOS
+============================================================================= */
+/**
+
+*/
+
+#content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#content-showroom {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    padding-left: 10;
+    padding-top: 14px;
+    display: inline-block;
+    position: relative;
+    left: 210px;
+    
+}
+
+.showroom {
+    
+    position: relative;
+    
+    
+}
+
+
+.showroom ul {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  
+}
+
+.showroom ul li {
+    
+    display: block;
+}
+
+
+
+.showroom ul li img {
+    margin: 0;
+    padding: 10px;
+
+}
+
+#showroom-1 {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#showroom-1 ul li {
+    width: 460px;
+    height: 500px;
+    background: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+
+#showroom-1 ul li img{
+  
+}
+
+#showroom-2 {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#showroom-2 ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#showroom-2 ul li {
+    width: 300px;
+    height: 400px;
+    background: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+
+#showroom-3 {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#showroom-3 ul li {
+    width: 300px;
+    height: 500px;
+    background: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#btn-up  {
+    display: inline-block;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
+#btn-up.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+#btn-up.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+}
+#btn-up.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .5;
+}
+.no-touch #btn-up:hover {
+    background-color: #e86256;
+    opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  #btn-up {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #btn-up {
+    right: 30px;
+    bottom: 40px;
+
+}
+
+#fa-long-arrow-up {
+    color: #000;
+}
+
+
+
+
+/* =============================================================================
+  MM - MATERIAL MENU
+============================================================================= */
+/**
+ * MM - Material Menu
+ *
+ * All the styles for the material menu here! I've prefixed them all with "mm",
+ * which means material menu.
+ */
+/**
+ * Toggle Button
+ *
+ * a.k.a. hamburger icon. See the "resets" section for global button resets.
+ */
+.mm-menu-toggle {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    z-index: 20;
+    width: 24px;
+    height: 18px;
+    background: -webkit-linear-gradient(90deg, rgba(33, 33, 33, 0), rgba(33, 33, 33, 0) 7px, #FFFFFF 7px, #FFFFFF 11px, rgba(33, 33, 33, 0) 11px, rgba(33, 33, 33, 0) 18px);
+    background: linear-gradient(0deg, rgba(33, 33, 33, 0), rgba(33, 33, 33, 0) 7px, #FFFFFF 7px, #FFFFFF 11px, rgba(33, 33, 33, 0) 11px, rgba(33, 33, 33, 0) 18px);
+    font-size: 0;
+    text-indent: -9999px;
+}
+
+.mm-menu-toggle::before,
+.mm-menu-toggle::after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #FFFFFF;
+    content: "";
+}
+
+.mm-menu-toggle::before {
+    top: 0;
+    -webkit-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left;
+}
+
+.mm-menu-toggle::after {
+    bottom: 0;
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}
+
+.mm-menu-toggle,
+.mm-menu-toggle::before,
+.mm-menu-toggle::after {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/* active states */
+.mm-menu-toggle.active {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.mm-menu-toggle.active::before {
+    width: 75%;
+    -webkit-transform: translateY(7px) rotate(-45deg);
+    -ms-transform: translateY(7px) rotate(-45deg);
+    transform: translateY(7px) rotate(-45deg);
+}
+
+.mm-menu-toggle.active::after {
+    width: 75%;
+    -webkit-transform: translateY(-7px) rotate(45deg);
+    -ms-transform: translateY(-7px) rotate(45deg);
+    transform: translateY(-7px) rotate(45deg);
+}
+
+/**
+ * The actual menu
+ *
+ * Here be all the stuff for the menu itself.
+ */
+.mm-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    box-shadow: 0;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: -webkit-transform 0.5s, box-shadow 0.5s;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.mm-menu.active {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+@media all and (min-width: 300px) {
+  .mm-menu {
+    width: 300px;
+    -webkit-transform: translateX(-300px);
+    -ms-transform: translateX(-300px);
+    transform: translateX(-300px);
+  }
+}
+/* header */
+.mm-menu__header {
+    position: relative;
+    width: 100%;
+    height: 188px;
+    background-color: #CDDC39;
+}
+
+.mm-menu__title {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 22px;
+}
+
+/* list */
+.mm-menu__items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mm-menu__item {
+  display: block;
+  width: 100%;
+  opacity: 0;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.mm-menu__item.in-view {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.mm-menu__item.item-1 {
+  -webkit-transition: opacity 0.5s 0.1s, -webkit-transform 0.5s 0.1s;
+          transition: opacity 0.5s 0.1s, transform 0.5s 0.1s;
+}
+
+.mm-menu__item.item-2 {
+  -webkit-transition: opacity 0.5s 0.2s, -webkit-transform 0.5s 0.2s;
+          transition: opacity 0.5s 0.2s, transform 0.5s 0.2s;
+}
+
+.mm-menu__item.item-3 {
+  -webkit-transition: opacity 0.5s 0.3s, -webkit-transform 0.5s 0.3s;
+          transition: opacity 0.5s 0.3s, transform 0.5s 0.3s;
+}
+
+.mm-menu__item.item-4 {
+  -webkit-transition: opacity 0.5s 0.4s, -webkit-transform 0.5s 0.4s;
+          transition: opacity 0.5s 0.4s, transform 0.5s 0.4s;
+}
+
+.mm-menu__item.item-5 {
+  -webkit-transition: opacity 0.5s 0.5s, -webkit-transform 0.5s 0.5s;
+          transition: opacity 0.5s 0.5s, transform 0.5s 0.5s;
+}
+
+.mm-menu__item.item-6 {
+  -webkit-transition: opacity 0.5s 0.6s, -webkit-transform 0.5s 0.6s;
+          transition: opacity 0.5s 0.6s, transform 0.5s 0.6s;
+}
+
+
+.mm-menu__link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 4px 0;
+  padding: 12px;
+  color: #727272;
+  font-size: 16px;
+  text-decoration: none;
+  -webkit-transition: background 0.5s, color 0.5s;
+          transition: background 0.5s, color 0.5s;
+}
+
+.mm-menu__link-text {
+  position: relative;
+  z-index: 2;
+}
+
+/* the touch effect, for when a link is touched */
+.mm-menu__link--touch-effect {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  border-radius: 100%;
+  background-color: #B6B6B6;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  -webkit-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+.mm-menu__link--touch-effect.animating {
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.5s;
+          transition: transform 0.5s;
+}
+
+/**
+ * Menu mask
+ *
+ * A mask that comes in and covers the wrapper when the menu is active.
+ */
+.mm-menu-mask {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s, visibility 0.5s;
+          transition: opacity 0.5s, visibility 0.5s;
+}
+
+.mm-menu-mask.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*!
+ *  Material Design Iconic Font 1.0.1 by Sergey Kupletsky (@zavoloklom) - http://zavoloklom.github.io/material-design-iconic-font/
+ *  License - https://github.com/zavoloklom/material-design-iconic-font/blob/gh-pages/License.md (Attribution-ShareAlike 4.0 International license)
+ */
+
+
+[class^="md-"],
+[class*=" md-"] {
+  display: inline-block;
+  font: normal normal normal 14px/1 'Material Design Iconic Font';
+  font-size: inherit;
+  speak: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.md {
+  line-height: inherit;
+  vertical-align: bottom;
+}
+
+.md-lg {
+  font-size: 1.5em;
+  line-height: .5em;
+  vertical-align: -35%;
+}
+
+.md-2x {
+  font-size: 2em;
+}
+
+.md-3x {
+  font-size: 3em;
+}
+
+.md-4x {
+  font-size: 4em;
+}
+
+.md-5x {
+  font-size: 5em;
+}
+
+.md-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #808080;
+  border-radius: .1em;
+}
+
+.md-border-circle {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #808080;
+  border-radius: 50%;
+}
+
+[class^="md-"].pull-left,
+[class*=" md-"].pull-left {
+  float: left;
+  margin-right: .3em;
+}
+
+[class^="md-"].pull-right,
+[class*=" md-"].pull-right {
+  float: right;
+  margin-left: .3em;
+}
+
+.md-spin {
+  -webkit-animation: md-spin 1.5s infinite linear;
+  animation: md-spin 1.5s infinite linear;
+}
+
+.md-spin-reverse {
+  -webkit-animation: md-spin-reverse 1.5s infinite linear;
+  animation: md-spin-reverse 1.5s infinite linear;
+}
+
+@-webkit-keyframes md-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes md-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes md-spin-reverse {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-359deg);
+    transform: rotate(-359deg);
+  }
+}
+@keyframes md-spin-reverse {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-359deg);
+    transform: rotate(-359deg);
+  }
+}
+.md-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.md-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.md-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.md-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.md-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+:root .md-rotate-90,
+:root .md-rotate-180,
+:root .md-rotate-270,
+:root .md-flip-horizontal,
+:root .md-flip-vertical {
+  -webkit-filter: none;
+          filter: none;
+}
+
+/* Material Design Iconic Font uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* If you do not want use all icons you can disable icon set here */
+.md-3d-rotation:before {
+  content: "\f000";
+}
+
+.md-accessibility:before {
+  content: "\f001";
+}
+
+.md-account-balance:before {
+  content: "\f002";
+}
+
+.md-account-balance-wallet:before {
+  content: "\f003";
+}
+
+.md-account-box:before {
+  content: "\f004";
+}
+
+.md-account-child:before {
+  content: "\f005";
+}
+
+.md-account-circle:before {
+  content: "\f006";
+}
+
+.md-add-shopping-cart:before {
+  content: "\f007";
+}
+
+.md-alarm:before {
+  content: "\f008";
+}
+
+.md-alarm-add:before {
+  content: "\f009";
+}
+
+.md-alarm-off:before {
+  content: "\f00a";
+}
+
+.md-alarm-on:before {
+  content: "\f00b";
+}
+
+.md-android:before {
+  content: "\f00c";
+}
+
+.md-announcement:before {
+  content: "\f00d";
+}
+
+.md-aspect-ratio:before {
+  content: "\f00e";
+}
+
+.md-assessment:before {
+  content: "\f00f";
+}
+
+.md-assignment:before {
+  content: "\f010";
+}
+
+.md-assignment-ind:before {
+  content: "\f011";
+}
+
+.md-assignment-late:before {
+  content: "\f012";
+}
+
+.md-assignment-return:before {
+  content: "\f013";
+}
+
+.md-assignment-returned:before {
+  content: "\f014";
+}
+
+.md-assignment-turned-in:before {
+  content: "\f015";
+}
+
+.md-autorenew:before {
+  content: "\f016";
+}
+
+.md-backup:before {
+  content: "\f017";
+}
+
+.md-book:before {
+  content: "\f018";
+}
+
+.md-bookmark:before {
+  content: "\f019";
+}
+
+.md-bookmark-outline:before {
+  content: "\f01a";
+}
+
+.md-bug-report:before {
+  content: "\f01b";
+}
+
+.md-cached:before {
+  content: "\f01c";
+}
+
+.md-class:before {
+  content: "\f01d";
+}
+
+.md-credit-card:before {
+  content: "\f01e";
+}
+
+.md-dashboard:before {
+  content: "\f01f";
+}
+
+.md-delete:before {
+  content: "\f020";
+}
+
+.md-description:before {
+  content: "\f021";
+}
+
+.md-dns:before {
+  content: "\f022";
+}
+
+.md-done:before {
+  content: "\f023";
+}
+
+.md-done-all:before {
+  content: "\f024";
+}
+
+.md-event:before {
+  content: "\f025";
+}
+
+.md-exit-to-app:before {
+  content: "\f026";
+}
+
+.md-explore:before {
+  content: "\f027";
+}
+
+.md-extension:before {
+  content: "\f028";
+}
+
+.md-face-unlock:before {
+  content: "\f029";
+}
+
+.md-favorite:before {
+  content: "\f02a";
+}
+
+.md-favorite-outline:before {
+  content: "\f02b";
+}
+
+.md-find-in-page:before {
+  content: "\f02c";
+}
+
+.md-find-replace:before {
+  content: "\f02d";
+}
+
+.md-flip-to-back:before {
+  content: "\f02e";
+}
+
+.md-flip-to-front:before {
+  content: "\f02f";
+}
+
+.md-get-app:before {
+  content: "\f030";
+}
+
+.md-grade:before {
+  content: "\f031";
+}
+
+.md-group-work:before {
+  content: "\f032";
+}
+
+.md-help:before {
+  content: "\f033";
+}
+
+.md-highlight-remove:before {
+  content: "\f034";
+}
+
+.md-history:before {
+  content: "\f035";
+}
+
+.md-home:before {
+  content: "\f036";
+}
+
+.md-https:before {
+  content: "\f037";
+}
+
+.md-info:before {
+  content: "\f038";
+}
+
+.md-info-outline:before {
+  content: "\f039";
+}
+
+.md-input:before {
+  content: "\f03a";
+}
+
+.md-invert-colors:before {
+  content: "\f03b";
+}
+
+.md-label:before {
+  content: "\f03c";
+}
+
+.md-label-outline:before {
+  content: "\f03d";
+}
+
+.md-language:before {
+  content: "\f03e";
+}
+
+.md-launch:before {
+  content: "\f03f";
+}
+
+.md-list:before {
+  content: "\f040";
+}
+
+.md-lock:before {
+  content: "\f041";
+}
+
+.md-lock-open:before {
+  content: "\f042";
+}
+
+.md-lock-outline:before {
+  content: "\f043";
+}
+
+.md-loyalty:before {
+  content: "\f044";
+}
+
+.md-markunread-mailbox:before {
+  content: "\f045";
+}
+
+.md-note-add:before {
+  content: "\f046";
+}
+
+.md-open-in-browser:before {
+  content: "\f047";
+}
+
+.md-open-in-new:before {
+  content: "\f048";
+}
+
+.md-open-with:before {
+  content: "\f049";
+}
+
+.md-pageview:before {
+  content: "\f04a";
+}
+
+.md-payment:before {
+  content: "\f04b";
+}
+
+.md-perm-camera-mic:before {
+  content: "\f04c";
+}
+
+.md-perm-contact-cal:before {
+  content: "\f04d";
+}
+
+.md-perm-data-setting:before {
+  content: "\f04e";
+}
+
+.md-perm-device-info:before {
+  content: "\f04f";
+}
+
+.md-perm-identity:before {
+  content: "\f050";
+}
+
+.md-perm-media:before {
+  content: "\f051";
+}
+
+.md-perm-phone-msg:before {
+  content: "\f052";
+}
+
+.md-perm-scan-wifi:before {
+  content: "\f053";
+}
+
+.md-picture-in-picture:before {
+  content: "\f054";
+}
+
+.md-polymer:before {
+  content: "\f055";
+}
+
+.md-print:before {
+  content: "\f056";
+}
+
+.md-query-builder:before {
+  content: "\f057";
+}
+
+.md-question-answer:before {
+  content: "\f058";
+}
+
+.md-receipt:before {
+  content: "\f059";
+}
+
+.md-redeem:before {
+  content: "\f05a";
+}
+
+.md-report-problem:before {
+  content: "\f05b";
+}
+
+.md-restore:before {
+  content: "\f05c";
+}
+
+.md-room:before {
+  content: "\f05d";
+}
+
+.md-schedule:before {
+  content: "\f05e";
+}
+
+.md-search:before {
+  content: "\f05f";
+}
+
+.md-settings:before {
+  content: "\f060";
+}
+
+.md-settings-applications:before {
+  content: "\f061";
+}
+
+.md-settings-backup-restore:before {
+  content: "\f062";
+}
+
+.md-settings-bluetooth:before {
+  content: "\f063";
+}
+
+.md-settings-cell:before {
+  content: "\f064";
+}
+
+.md-settings-display:before {
+  content: "\f065";
+}
+
+.md-settings-ethernet:before {
+  content: "\f066";
+}
+
+.md-settings-input-antenna:before {
+  content: "\f067";
+}
+
+.md-settings-input-component:before {
+  content: "\f068";
+}
+
+.md-settings-input-composite:before {
+  content: "\f069";
+}
+
+.md-settings-input-hdmi:before {
+  content: "\f06a";
+}
+
+.md-settings-input-svideo:before {
+  content: "\f06b";
+}
+
+.md-settings-overscan:before {
+  content: "\f06c";
+}
+
+.md-settings-phone:before {
+  content: "\f06d";
+}
+
+.md-settings-power:before {
+  content: "\f06e";
+}
+
+.md-settings-remote:before {
+  content: "\f06f";
+}
+
+.md-settings-voice:before {
+  content: "\f070";
+}
+
+.md-shop:before {
+  content: "\f071";
+}
+
+.md-shopping-basket:before {
+  content: "\f072";
+}
+
+.md-shopping-cart:before {
+  content: "\f073";
+}
+
+.md-shop-two:before {
+  content: "\f074";
+}
+
+.md-speaker-notes:before {
+  content: "\f075";
+}
+
+.md-spellcheck:before {
+  content: "\f076";
+}
+
+.md-star-rate:before {
+  content: "\f077";
+}
+
+.md-stars:before {
+  content: "\f078";
+}
+
+.md-store:before {
+  content: "\f079";
+}
+
+.md-subject:before {
+  content: "\f07a";
+}
+
+.md-swap-horiz:before {
+  content: "\f07b";
+}
+
+.md-swap-vert:before {
+  content: "\f07c";
+}
+
+.md-swap-vert-circle:before {
+  content: "\f07d";
+}
+
+.md-system-update-tv:before {
+  content: "\f07e";
+}
+
+.md-tab:before {
+  content: "\f07f";
+}
+
+.md-tab-unselected:before {
+  content: "\f080";
+}
+
+.md-theaters:before {
+  content: "\f081";
+}
+
+.md-thumb-down:before {
+  content: "\f082";
+}
+
+.md-thumbs-up-down:before {
+  content: "\f083";
+}
+
+.md-thumb-up:before {
+  content: "\f084";
+}
+
+.md-toc:before {
+  content: "\f085";
+}
+
+.md-today:before {
+  content: "\f086";
+}
+
+.md-track-changes:before {
+  content: "\f087";
+}
+
+.md-translate:before {
+  content: "\f088";
+}
+
+.md-trending-down:before {
+  content: "\f089";
+}
+
+.md-trending-neutral:before {
+  content: "\f08a";
+}
+
+.md-trending-up:before {
+  content: "\f08b";
+}
+
+.md-turned-in:before {
+  content: "\f08c";
+}
+
+.md-turned-in-not:before {
+  content: "\f08d";
+}
+
+.md-verified-user:before {
+  content: "\f08e";
+}
+
+.md-view-agenda:before {
+  content: "\f08f";
+}
+
+.md-view-array:before {
+  content: "\f090";
+}
+
+.md-view-carousel:before {
+  content: "\f091";
+}
+
+.md-view-column:before {
+  content: "\f092";
+}
+
+.md-view-day:before {
+  content: "\f093";
+}
+
+.md-view-headline:before {
+  content: "\f094";
+}
+
+.md-view-list:before {
+  content: "\f095";
+}
+
+.md-view-module:before {
+  content: "\f096";
+}
+
+.md-view-quilt:before {
+  content: "\f097";
+}
+
+.md-view-stream:before {
+  content: "\f098";
+}
+
+.md-view-week:before {
+  content: "\f099";
+}
+
+.md-visibility:before {
+  content: "\f09a";
+}
+
+.md-visibility-off:before {
+  content: "\f09b";
+}
+
+.md-wallet-giftcard:before {
+  content: "\f09c";
+}
+
+.md-wallet-membership:before {
+  content: "\f09d";
+}
+
+.md-wallet-travel:before {
+  content: "\f09e";
+}
+
+.md-work:before {
+  content: "\f09f";
+}
+
+.md-error:before {
+  content: "\f0a0";
+}
+
+.md-warning:before {
+  content: "\f0a1";
+}
+
+.md-album:before {
+  content: "\f0a2";
+}
+
+.md-av-timer:before {
+  content: "\f0a3";
+}
+
+.md-closed-caption:before {
+  content: "\f0a4";
+}
+
+.md-equalizer:before {
+  content: "\f0a5";
+}
+
+.md-explicit:before {
+  content: "\f0a6";
+}
+
+.md-fast-forward:before {
+  content: "\f0a7";
+}
+
+.md-fast-rewind:before {
+  content: "\f0a8";
+}
+
+.md-games:before {
+  content: "\f0a9";
+}
+
+
+
+@media all and (min-width: 600px) {
+  #fusionads {
+    display: block;
+  }
+}
+
+
+
+header {
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    height: 100px;
+
+
+
+/* Example media queries */
+
+@media screen and (max-width: 55.1875em){
+
+    .cbp-spmenu-horizontal {
+        font-size: 75%;
+        height: 110px;
+    }
+
+    .cbp-spmenu-top {
+        top: -110px;
+    }
+
+    .cbp-spmenu-bottom {
+        bottom: -110px;
+    }
+
+}
+
+@media screen and (max-height: 26.375em){
+
+    .cbp-spmenu-vertical {
+        font-size: 90%;
+        width: 190px;
+    }
+
+    .cbp-spmenu-left,
+    .cbp-spmenu-push-toleft {
+        left: -190px;
+    }
+
+    .cbp-spmenu-right {
+        right: -190px;
+    }
+
+    .cbp-spmenu-push-toright {
+        left: 190px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+*/
